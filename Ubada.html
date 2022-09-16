@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ubada.css">
+    <title>Ubada_Website</title>
+    <script src="https://kit.fontawesome.com/40ed1f9275.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/output-onlinepngtools.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Photographer\Graphic Designer</p>
+                <h1>Hi, I'm <span>Ubada</span><br>Alfa From Turkey</h1>
+            </div>
+        </div>
+    </div>
+    <!------------------About-------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images\first.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a Photographer & Designer.Developed and maintained on-line photo library allowing images to
+                        be utilized in marketing material diminishing the need for stock photography. Ican Provide
+                        photographic services including photo editing and manipulation; render fine art photography and
+                        digital fine art portfolios.Created presentations for customers, logo designs, websites;
+                        delivered professional photography and retouching services.</p>
+
+
+                    <div class="tab-titels">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Ui?Ux</span><br>Designing Web\App interfaces</li>
+                            <li><span>Photographer</span><br>The Best Photos</li>
+                            <li><span>Videographer</span><br>Shooting High Quality</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022 - Current</span><br>Ux\Ui Design Training at ET
+                                Institute</li>
+                            <li><span>2019 - 2021</span><br>Team Leader In Compony OF ITC</li>
+                            <li><span>2017 - 2022</span><br>Gradute From BBA Univesity</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2016</span><br>Some Achivements OF vvb</li>
+                            <li><span>2020</span><br>The Most Inflouncer man</li>
+                            <li><span>2021</span><br>Best One Cry Ever</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------------------------------------servises------------------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-sharp fa-solid fa-camera"></i>
+                    <h2>Photographer</h2>
+                    <p>Confident and dedicated photographer with experience in both professional and freelance
+                        photography. Holds nearly 4 years of working experience with great variety in order to tackle
+                        any photography job quickly and effectively.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-video"></i>
+                    <h2>Videographer</h2>
+                    <p>Professional video editor with 2+ years of experience with advanced video editing skills and
+                        knowledge of the latest video editing software, tools and techniques.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-slack"></i>
+                    <h2>Logo Design</h2>
+                    <p>Experience creating Logos designs for made-up businesses.Skilled in Adobe Creative Suite,
+                        including Photoshop, InDesign, Illustrator, and more</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----------------------------------------------------portfolio------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src="images/flower.jpg">
+                    <div class="layer">
+                        <h3>Social Media app</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam deleniti tempore error
+                            dicta inventore cum quidem veritatis animi rerum, sapiente aliquid, possimus aliquam quis
+                            debitis soluta voluptatum. Ducimus, iusto cumque.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/hi.jpg">
+                    <div class="layer">
+                        <h3>calling app</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam deleniti tempore error
+                            dicta inventore cum quidem veritatis animi rerum, sapiente aliquid, possimus aliquam quis
+                            debitis soluta voluptatum. Ducimus, iusto cumque.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/why.jpg">
+                    <div class="layer">
+                        <h3>Music app</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam deleniti tempore error
+                            dicta inventore cum quidem veritatis animi rerum, sapiente aliquid, possimus aliquam quis
+                            debitis soluta voluptatum. Ducimus, iusto cumque.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!----------------------------------------------------contact------------------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-paper-plane"></i> Obadafa.2002@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +905*********</p>
+                    <div class="social-icons">
+                        <a href="https://instagram.com/obada_fa?igshid=YmMyMTA2M2Y="><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/Obadafaa?t=RN1IuFolobRRts2NDmv0JA&s=09"><i
+                                class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.behance.net/obadafa"><i class="fa-brands fa-behance"></i></a>
+                        <a href="https://www.facebook.com/Obada.faa"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <a href="images/CV.docx" download class="btn btn2">Doweload CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="Email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Massage" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Ahmed. Made wtih <i class="fas fa-heart"></i></p>
+        </div>
+    </div>
+
+    <script src="Ubada.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzPnJ5Ap3QDd7ABkVwARUgFh4K4UZZUj6g0-FTYZs-ZCh6SZAw0kzJ6QGnqRrf3boS5dQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById('msg');
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerText = "Message Sent Successfully"
+                    setTimeout(function () {
+                        msg.innerText = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+    
+</body>
+
+</html>
